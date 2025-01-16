@@ -1,10 +1,10 @@
-Advanced Fluid Handling For PyMods
+# Advanced Fluid Handling For PyMods
 
-Adds 3 tiers of underground pipe extenders and junctions for Pyanodon mods.
+**Adds 3 tiers of underground pipe extenders and junctions for Pyanodon mods.**
 
 
 
-An updated addon to Advanced Fluid Handling mod that makes it more suitable for Pyanodon mods. Original version by Sopel is here
+An updated addon to Advanced Fluid Handling mod that makes it more suitable for Pyanodon mods. Original version by Sopel is [here](https://mods.factorio.com/mod/advanced_fluid_handling_for_py)
 
     Update for Factorio 2.0
     Update for Pyanodon's braided pipes
