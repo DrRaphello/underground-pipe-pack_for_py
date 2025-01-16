@@ -1,0 +1,86 @@
+---------------------------------------------------------------------------------------------------
+Version: 2.0.3
+Date: 2025-01-xx
+  Bugfixes:
+    - nothing
+---------------------------------------------------------------------------------------------------
+Version: 2.0.2
+Date: 2025-01-15
+  Bugfixes:
+    - Dependency on base reduced to latest stable 2.0.28
+---------------------------------------------------------------------------------------------------
+Version: 2.0.1
+Date: 2025-01-14
+  Changes:
+    - Added thumbnail and changelog
+    - Added parameter to increase underground distance of iron pipes to 11 to match default values of AFH. Please read the description before using this option!
+    - Adjusted max_pipeline_extent to match py values
+    - AFH valves are disabled
+---------------------------------------------------------------------------------------------------
+Version: 2.0.0
+Date: 2025-01-13
+  Features:
+    - Update to Factorio 2.0
+    - Compatibility with pyIndustry braided pipes
+  Changes:
+    - Three tiers of underground pipes have pumping speed and energy usage of vanilla pump.
+  Bugfixes:
+    - Colour of arrows on pumps match their tier
+---------------------------------------------------------------------------------------------------
+Version: 1.0.8
+Date: 2022-07-22
+  Changes:
+    - Use up to py-science-pack-1 for first research if available (no logistics science pack required).
+---------------------------------------------------------------------------------------------------
+Version: 1.0.7
+Date: 2021-09-02
+  Changes:
+    - Center arrows on tier 1 and tier 2 pipes
+---------------------------------------------------------------------------------------------------
+Version: 1.0.6
+Date: 2021-09-02
+  Bugfixes:
+    - Fix arrow directions for "one-to-three-left" pipe-to-ground
+---------------------------------------------------------------------------------------------------
+Version: 1.0.5
+Date: 2021-09-01
+  Features:
+    - Add an optional setting to keep the valves (off by default).
+  Bugfixes:
+    - Fixed startup settings not being respected.
+---------------------------------------------------------------------------------------------------
+Version: 1.0.4
+Date: 2021-09-01
+  Bugfixes:
+    - Additional pipe-to-grounds now have correct max underground length.
+---------------------------------------------------------------------------------------------------
+Version: 1.0.3
+Date: 2021-09-01
+  Features:
+    - An optional setting (on by default) to replace the added pipe-to-grounds graphics with ones based on Pyanodon's pipes.
+---------------------------------------------------------------------------------------------------
+Version: 1.0.2
+Date: 2021-08-31
+  Bugfixes:
+    - Fix incorrect override for rotate option locale.
+---------------------------------------------------------------------------------------------------
+Version: 1.0.1
+Date: 2021-08-31
+  Changes:
+    - Reenable pipe-to-grounds as they do indeed provide an important use-case.
+---------------------------------------------------------------------------------------------------
+Version: 1.0.0
+Date: 2021-08-31
+  Features:
+    - Initial release, addon for Advanced Underground Piping
+  Changes:
+    - Renamed "Tier 1" to ""
+    - Renamed "Tier 2" to "Niobium"
+    - Renamed "Tier 3" to "Multipurpose"
+    - Fix capitalization in the english locale
+    - Adjust underground distances to match Pyanodon pipes
+    - Change "Mini underground pump" to "Underground pump"
+    - Move the underground pump to tier 3
+    - Remove 4-to-4 pipe
+    - Remove valves (Py Industry has them)
+    - Remove n-way pipe-to-grounds (overpowered/too immersion breaking)
