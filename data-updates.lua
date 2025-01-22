@@ -261,6 +261,9 @@ do
         elseif v.name == 'underground-mini-pump-t2' then
             for _, conn in pairs(v.fluid_box.pipe_connections) do
                 conn.max_underground_distance = t2_distance
+                if settings.startup["py-braided-pipes"].value then
+                    conn.connection_category = "niobium-pipe"
+                end
             end
             v.pumping_speed = defspeed
             v.energy_usage = defenerg
@@ -275,6 +278,9 @@ do
         elseif v.name == 'underground-mini-pump-t3' then
             for _, conn in pairs(v.fluid_box.pipe_connections) do
                 conn.max_underground_distance = t3_distance
+                if settings.startup["py-braided-pipes"].value then
+                    conn.connection_category = "ht-pipes"
+                end
             end
             v.pumping_speed = defspeed
             v.energy_usage = defenerg

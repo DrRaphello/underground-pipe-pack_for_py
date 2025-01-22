@@ -1,8 +1,10 @@
 ---------------------------------------------------------------------------------------------------
 Version: 2.0.3
-Date: 2025-01-xx
+Date: 2025-01-22
+  Changes:
+    - Reduced thumbnail size
   Bugfixes:
-    - nothing yet
+    - Fix underground pipe connections for braided pumps T2&T3
 ---------------------------------------------------------------------------------------------------
 Version: 2.0.2
 Date: 2025-01-15
